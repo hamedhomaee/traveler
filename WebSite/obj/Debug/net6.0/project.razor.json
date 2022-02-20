@@ -16313,11 +16313,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\hamed\\Desktop\\Projects\\Traveler\\WebSite\\Views\\Pages\\Contact.cshtml",
-      "TargetPath": "Views\\Pages\\Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\hamed\\Desktop\\Projects\\Traveler\\WebSite\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
