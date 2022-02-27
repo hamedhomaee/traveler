@@ -5,6 +5,7 @@ using React.AspNet;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
 builder.Services.AddReact();
 builder.Services.AddJsEngineSwitcher(options => options.DefaultEngineName = V8JsEngine.EngineName)
     .AddV8();
@@ -22,9 +23,8 @@ app.UseHttpsRedirection();
 
 app.UseReact(config =>
 {
-  //config
-  //  .AddScript("~/js/First.jsx")
-  //  .AddScript("~/js/Second.jsx");
+  config
+   .AddScript("");
 });
 
 app.UseStaticFiles();
